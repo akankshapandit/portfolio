@@ -28,7 +28,7 @@ const Services = () => {
       whileInView={{ y:0,opacity: 1 }}
       transition={{delay:0.7, duration: 0.5 }}
 
-       className='text-center max-w-2xl mx-auto mt-5 mb-12'>I am a frontend developer with 1 year of hands-on experience in building responsive and user-friendly web applications. I specialize in creating clean, modern interfaces with a strong focus on performance and user experience.</motion.p>
+       className='text-center max-w-2xl mx-auto mt-5 mb-12'>I am a full stack developer with 1 year of hands-on experience in building responsive and user-friendly web applications. I specialize in creating clean, modern interfaces with a strong focus on performance and user experience.</motion.p>
 
       <motion.div
       initial={{opacity: 0 }}

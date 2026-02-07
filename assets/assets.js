@@ -38,6 +38,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import my_photo from './my_photo.png'
 import name_logo from './name_logo.png'
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -82,9 +83,9 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Food delivery app',
+        title: 'AI-oral tumor predictor',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/work-6.png',
     },
     {
         title: 'Weather app',
@@ -97,7 +98,7 @@ export const workData = [
         bgImage: '/work-5.png',
     },
     {
-        title: 'Social Media app',
+        title: 'AI marketing tool for an eccomerce website',
         description: 'Web Design',
         bgImage: '/work-4.png',
     },
@@ -110,7 +111,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js,node,mongo db' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

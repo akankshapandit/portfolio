@@ -28,7 +28,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[50px] font-Ovo"
       >
-        Frontend Web Developer
+        Full stack Web Developer
       </motion.h1>
       <motion.h1
         initial={{ y: -30, opacity: 0 }}
@@ -45,7 +45,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        I’m a budding frontend developer with experience in building responsive
+        I’m a budding full stack web developer with experience in building responsive
         and interactive web applications using HTML, CSS, JavaScript, React,
         Next.js, and Tailwind CSS.
       </motion.p>
@@ -60,16 +60,17 @@ const Header = () => {
           Contact me{" "}
           <Image src={assets.right_arrow_white} alt="" className="w-4" />
         </motion.a>
-        <motion.a
-        initial={{ y: 30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.2 }}
-          href="/akanksha_resume.pdf"
-          download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
-        >
-          my resume <Image src={assets.download_icon} alt="" className="w-4" />
-        </motion.a>
+       <motion.a
+  initial={{ y: 30, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  transition={{ duration: 0.6, delay: 1.2 }}
+  href="/AKANKSHA_PANDIT[9].pdf"
+  download="Akanksha_Pandit_Resume.pdf"
+  className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
+>
+  my resume <Image src={assets.download_icon} alt="" className="w-4" />
+</motion.a>
+
       </div>
     </div>
   );

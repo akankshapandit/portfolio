@@ -51,7 +51,7 @@ const About = () => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am a frontend developer with 1 year of hands-on experience in
+            I am a full stack developer with 1 year of hands-on experience in
             building responsive and user-friendly web applications. I specialize
             in creating clean, modern interfaces with a strong focus on
             performance and user experience. Over the past year, I have worked
